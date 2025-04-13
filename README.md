@@ -69,8 +69,6 @@ A documentação Swagger pode ser acessada em: [http://localhost:5000/swagger/](
 python -m http.server
 ```
 
-Depois, acesse: [http://localhost:8000](http://localhost:8000)
-
 ---
 
 ## 🧪 Funcionalidades implementadas
