@@ -1,7 +1,7 @@
 # ✅ MVP To-do List
 
-Uma aplicação simples e elegante para **criação e organização de tarefas diárias**.  
-Este projeto foi idealizado para demonstrar os conhecimentos práticos exigidos na avaliação do MVP, e também nasceu de uma **necessidade pessoal**: listar tarefas de forma rápida e objetiva para organização, planejamento e execução.
+Uma aplicação simples, elegante e com interface amigável para **criação e organização de tarefas diárias**.  
+Este projeto foi idealizado para colocar em prática os conhecimentos exigidos na avaliação do MVP, e também nasceu de uma **necessidade pessoal**: listar tarefas de forma rápida e visual para organização, planejamento e execução.
 
 A aplicação permite:
 - Criar tarefas
