@@ -88,10 +88,6 @@ Depois, acesse: [http://localhost:8000](http://localhost:8000)
 ## 🗂 Estrutura do projeto
 
 ```
-mvp-todo-list/
-├── app.py                 # Backend Flask
-├── tasks.db               # Banco de dados SQLite
-├── static/
 │   ├── index.html         # SPA frontend
 │   ├── styles.css         # Estilização
 │   └── script.js          # Lógica JS
@@ -108,8 +104,6 @@ Este projeto foi desenvolvido com dois objetivos:
 
 ---
 
-## 🙋‍♀️ Autora
+## 🎨 Protótipo do Figma
 
-Feito com muito carinho por **Ágata Velasco** 💜  
-
----
+https://www.figma.com/design/sDIkyLS7AuRQqeFB3z3QzC/MVP-To-do-list?node-id=0-1&p=f&t=Yur27hxBA4gIRF91-0
