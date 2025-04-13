@@ -1,24 +1,43 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <title>To-Do List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do List</title>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Gerenciador de Tarefas</h1>
-
-    <form id="taskForm">
-      <input
-        type="text"
-        id="taskInput"
-        placeholder="Digite uma tarefa..."
-        required
-      />
-      <button type="submit">Adicionar</button>
-    </form>
-
-    <ul id="taskList"></ul>
+    <div class="container">
+      <div class="add-task">
+        <h1 class="add-task-title">Crie uma tarefa</h1>
+        <div class="task-input">
+          <input
+            class="task-title"
+            id="task-title"
+            placeholder="digite aqui..."
+            maxlength="50"
+          />
+        </div>
+        <div class="button-container">
+          <button id="add-task">Criar</button>
+        </div>
+      </div>
+      <ul id="task-list"></ul>
+    </div>
+    <div id="confirm-modal" class="modal-overlay">
+      <div class="modal-box">
+        <div class="task-icon-wrapper">🗑️</div>
+        <p class="modal-text">Deseja realmente apagar esta tarefa?</p>
+        <div class="modal-actions">
+          <button id="cancel-delete">Cancelar</button>
+          <button id="confirm-delete">Apagar</button>
+        </div>
+      </div>
+    </div>
 
     <script src="script.js"></script>
   </body>
